@@ -11,7 +11,7 @@ var Alerts = [
     },
     {
         nature: Natures.FAILURE,
-        content: "Huston, we have a problem!"
+        content: "Houston, we have a problem!"
     },
     {
         nature: Natures.INFO,
