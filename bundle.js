@@ -20263,7 +20263,7 @@
 /* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "/7b5fb88f12bec8143f00e21bc3222124.ttf"
+	module.exports = "./7b5fb88f12bec8143f00e21bc3222124.ttf"
 
 /***/ },
 /* 161 */
