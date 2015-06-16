@@ -631,7 +631,6 @@
 	var App = React.createClass({ displayName: "App",
 
 	    render: function render() {
-	        console.log(Alert);
 	        return React.createElement("div", null, React.createElement(Alert, { alert: Alerts[0], id: "alert1" }), React.createElement(Alert, { alert: Alerts[1], id: "alert2" }), React.createElement(Alert, { alert: Alerts[2], id: "alert3" }), React.createElement(Alert, { alert: Alerts[3], id: "alert4" }));
 	    }
 	});
