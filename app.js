@@ -5,7 +5,6 @@ var Alerts = require('./AlertsSample');
 var App = React.createClass({
     
     render: function() {
-        console.log(Alert);
         return <div>
                 <Alert alert={Alerts[0]} id={"alert1"} />
                 
