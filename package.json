@@ -13,6 +13,6 @@
     "babel": "^4.0.0",
     "babel-loader": "^4.0.0",
     "react-hot-loader": "^1.0.7",
-    "react-material-alert": "^0.0.6"
+    "react-material-alert": "^0.1.3"
   }
 }
