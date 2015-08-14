@@ -505,7 +505,6 @@
 /******/ 		return module.exports;
 /******/ 	}
 /******/
-/******/
 /******/ 	// expose the modules object (__webpack_modules__)
 /******/ 	__webpack_require__.m = modules;
 /******/
@@ -20102,7 +20101,7 @@
 /* 158 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "7b5fb88f12bec8143f00e21bc3222124.ttf"
+	module.exports = "./7b5fb88f12bec8143f00e21bc3222124.ttf"
 
 /***/ },
 /* 159 */
