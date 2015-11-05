@@ -11,8 +11,7 @@ module.exports = {
 
   output: {
     path: '.',
-    filename: 'bundle.js',
-    publicPath: '/assets/'
+    filename: 'bundle.js'
   },
 
   cache: true,
