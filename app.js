@@ -1,4 +1,5 @@
 var React = require('react');
+var ReactDOM = require('react-dom');
 
 var Alert = require('react-material-alert').Alert;
 var Alerts = require('./AlertsSample');
@@ -16,5 +17,5 @@ var App = React.createClass({
             </div>;
     }
 });
-React.render(<App />,
+ReactDOM.render(<App />,
              document.getElementById('app'));
