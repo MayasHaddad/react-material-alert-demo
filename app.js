@@ -3,8 +3,7 @@ var ReactDOM = require('react-dom')
 
 var Alert = require('react-material-alert').Alert
 var Alerts = require('./AlertsSample')
-console.log(Alerts[0])
-console.log(Alert)
+
 var App = React.createClass({
   render: function () {
     return <div>
