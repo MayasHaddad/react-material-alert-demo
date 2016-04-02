@@ -4,11 +4,10 @@
  * This file is set up for serving the webpack-dev-server, which will watch for changes and recompile as required if
  * the subfolder /webpack-dev-server/ is visited. Visiting the root will not automatically reload.
  */
-'use strict';
-var webpack = require('webpack');
+'use strict'
+var webpack = require('webpack')
 
 module.exports = {
-
   output: {
     path: '.',
     filename: 'bundle.js'
@@ -18,8 +17,8 @@ module.exports = {
   debug: true,
   devtool: false,
   entry: [
-      'webpack/hot/only-dev-server',
-      './app.js'
+    'webpack/hot/only-dev-server',
+    './app.js'
   ],
 
   stats: {
@@ -35,21 +34,16 @@ module.exports = {
     }
   },
   module: {
-    preLoaders: [{
-      test: /\.(js|jsx)$/,
-      exclude: /node_modules/,
-      loader: 'jsxhint'
-    }],
     loaders: [{
       test: /\.(js|jsx)$/,
       exclude: /node_modules/,
-      loader: 'react-hot!babel-loader'
+      loader: 'babel'
     }, {
       test: /\.css$/,
       loader: 'style-loader!css-loader'
-    }, { 
-      test: /\.(png|jpg|woff|woff2|eot|ttf|svg)$/, 
-      loader: 'url-loader?limit=100000' 
+    }, {
+      test: /\.(png|jpg|woff|woff2|eot|ttf|svg)$/,
+      loader: 'url-loader?limit=100000'
     }]
   },
 
@@ -57,5 +51,4 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
   ]
-
-};
+}
