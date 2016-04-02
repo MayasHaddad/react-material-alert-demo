@@ -17,7 +17,6 @@ module.exports = {
   debug: true,
   devtool: false,
   entry: [
-    'webpack/hot/only-dev-server',
     './app.js'
   ],
 
@@ -48,7 +47,6 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
   ]
 }
